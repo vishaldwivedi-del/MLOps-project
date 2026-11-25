@@ -1,0 +1,4 @@
+# files Docker should NOT copy into the image
+.venv
+.git
+__pycache__
