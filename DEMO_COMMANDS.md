@@ -44,4 +44,5 @@ Stop with **Ctrl+C**.
 ## 5. CI/CD (MLOps)
 ```bash
 git add . && git commit -m "demo update" && git push
-```
+adding new version 
+``` 
