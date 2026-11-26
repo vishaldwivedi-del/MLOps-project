@@ -28,6 +28,8 @@ curl -X POST localhost:5001/predict -H "Content-Type: application/json" -d '{"fe
 
 ## 4. Run in Docker (MLOps)
 ```bash
+newgrp docker
+docker images          # should work now
 docker build -t iris-api .         # build image, name it "iris-api"
 docker run -p 5001:5001 iris-api   # start a container from it
 docker ps        # containers running right now
